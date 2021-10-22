@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pimer parcial labo III</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <script src="./js/script.js"></script>
+</head>
+<body>
+    <div id="divFlex">
+    <div id="divSpinner" class="spinner" hidden></div>
+    <div id="divTabla">
+        <table id="tabla">
+            <tr id=cabecera> 
+                <th>ID</th>
+                <th>Nombre</th>
+                <th>Fecha Final</th>
+                <th>Cuatrimestre</th>
+                <th>Turno</th>
+            </tr>
+        </table>
+    </div>
+
+    <div id="divFormMateria" hidden>
+        <input type="button" value="x" id="btnCerrar" class="btnCerrar">
+        <br>
+        <label for="txtNombre">Nombre</label>
+        <br>
+        <input type="text" name="txtNombre" id="txtNombre">
+        <br>
+        <label for="selectCuatrimestre">Cuatrimestre</label>
+        <br>
+        <select name="selectCuatrimestre" id="selectCuatrimestre">
+            <option value="1" disabled>1</option>
+            <option value="2" disabled>2</option>
+            <option value="3" disabled>3</option>
+            <option value="4" disabled>4</option>
+        </select>
+        <br>
+        <label for="radioTurno">Turno</label>
+        <br>
+        <input type="radio" name="mañana" id="mañana" value="Mañana">
+        <label for="turno">Mañana</label>
+        <br>
+        <input type="radio" name="noche" id="noche" value="Noche">
+        <label for="turno">Noche</label>
+        <br>
+        <label for="dateFechaFinal">Fecha de Final</label>
+        <br>
+        <input type="date" name="dateFechaFinal" id="dateFechaFinal">
+        <br>
+        <input type="button" value="Eliminar" id="btnEliminar" class="btnEliminar">
+        <input type="button" value="Modificar" id="btnModificar" class="btnModificar">
+    </div>
+
+    </div>
+
+
+
+</body>
+</html>
